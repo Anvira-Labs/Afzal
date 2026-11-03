@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#090909">
 <title>Afzal Jafri | Fintech & Digital Payments Partnerships Leader</title>
 <meta name="description" content="Afzal Jafri is a fintech and digital payments leader with 20+ years of experience building partnerships, banking alliances and mobility, NCMC and FASTag businesses.">
-<link rel="canonical" href="https://jafri.one/"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/webp" href="/assets/afzal-jafri-signature-logo.webp"><meta name="robots" content="index,follow,max-image-preview:large"><meta property="og:site_name" content="Afzal Jafri"><meta property="og:locale" content="en_US"><meta property="og:type" content="website"><meta property="og:title" content="Afzal Jafri | Fintech & Digital Payments Partnerships Leader"><meta property="og:description" content="Afzal Jafri is a fintech and digital payments leader with 20+ years of experience building partnerships, banking alliances and mobility, NCMC and FASTag businesses."><meta property="og:url" content="https://jafri.one/"><meta property="og:image" content="https://jafri.one/assets/hero-portrait.webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@AfzalJafri"><meta name="twitter:creator" content="@AfzalJafri"><meta name="twitter:title" content="Afzal Jafri | Fintech & Digital Payments Partnerships Leader"><meta name="twitter:description" content="Afzal Jafri is a fintech and digital payments leader with 20+ years of experience building partnerships, banking alliances and mobility, NCMC and FASTag businesses."><meta name="twitter:image" content="https://jafri.one/assets/hero-portrait.webp">
+<link rel="canonical" href="https://jafri.one/"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/webp" href="assets/afzal-jafri-signature-logo.webp"><meta name="robots" content="index,follow,max-image-preview:large"><meta property="og:site_name" content="Afzal Jafri"><meta property="og:locale" content="en_US"><meta property="og:type" content="website"><meta property="og:title" content="Afzal Jafri | Fintech & Digital Payments Partnerships Leader"><meta property="og:description" content="Afzal Jafri is a fintech and digital payments leader with 20+ years of experience building partnerships, banking alliances and mobility, NCMC and FASTag businesses."><meta property="og:url" content="https://jafri.one/"><meta property="og:image" content="https://jafri.one/assets/hero-portrait.webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@AfzalJafri"><meta name="twitter:creator" content="@AfzalJafri"><meta name="twitter:title" content="Afzal Jafri | Fintech & Digital Payments Partnerships Leader"><meta name="twitter:description" content="Afzal Jafri is a fintech and digital payments leader with 20+ years of experience building partnerships, banking alliances and mobility, NCMC and FASTag businesses."><meta name="twitter:image" content="https://jafri.one/assets/hero-portrait.webp">
 
 <style>
 :root{--bg:#090909;--panel:#111;--panel2:#151515;--gold:#c7a66a;--gold2:#e0c28b;--white:#f4f1eb;--muted:#a7a29a;--line:rgba(199,166,106,.22);--max:1180px}
@@ -40,7 +40,109 @@ footer{padding:24px 0;color:#777168;font-size:11px;border-top:1px solid rgba(255
 .whatsapp-float img{display:block;width:62px;height:62px}
 @media(max-width:600px){.whatsapp-float{right:16px;bottom:18px;width:56px;height:56px}.whatsapp-float img{width:56px;height:56px}}
 
-.nav-actions{display:flex;align-items:center;gap:12px}.nav-linkedin{width:36px;height:36px;border:1px solid rgba(199,166,106,.4);border-radius:50%;display:grid;place-items:center;color:#e0c28b;flex:0 0 36px;transition:background .2s,border-color .2s}.nav-linkedin:hover{background:rgba(199,166,106,.12);border-color:#e0c28b}
+
+
+/* Refined mobile header: keep brand, LinkedIn, Explore and Contact distinct */
+@media (max-width: 800px) {
+  .nav {
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    gap:7px !important;
+    min-height:72px !important;
+    height:auto !important;
+    padding-top:7px !important;
+    padding-bottom:7px !important;
+    flex-wrap:nowrap !important;
+  }
+  .nav .brand {
+    flex:0 1 104px !important;
+    width:104px !important;
+    min-width:82px !important;
+    max-width:104px !important;
+    overflow:hidden;
+  }
+  .nav .brand img, .nav .brand-logo {
+    display:block !important;
+    width:100% !important;
+    height:52px !important;
+    max-height:52px !important;
+    object-fit:contain !important;
+    object-position:left center !important;
+  }
+  .nav .nav-social, .nav .nav-linkedin {
+    display:flex !important;
+    flex:0 0 34px !important;
+    width:34px !important;
+    height:34px !important;
+    min-width:34px !important;
+    align-items:center !important;
+    justify-content:center !important;
+    border:1px solid rgba(199,166,106,.48) !important;
+    border-radius:50% !important;
+    color:#e0c28b !important;
+    text-decoration:none !important;
+    margin:0 !important;
+  }
+  .nav .nav-social span {font-size:15px;font-weight:700;line-height:1}
+  .nav .nav-social svg, .nav .nav-linkedin svg {width:16px;height:16px;display:block}
+  .nav .nav-actions {
+    display:flex !important;
+    align-items:center !important;
+    justify-content:flex-end !important;
+    flex:0 0 auto !important;
+    gap:7px !important;
+    margin-left:auto !important;
+    min-width:0 !important;
+  }
+  .nav .menu-toggle {
+    display:inline-flex !important;
+    flex:0 0 76px !important;
+    width:76px !important;
+    min-width:76px !important;
+    min-height:38px !important;
+    height:38px !important;
+    align-items:center !important;
+    justify-content:center !important;
+    gap:7px !important;
+    padding:0 8px !important;
+    border:1px solid rgba(199,166,106,.78) !important;
+    border-radius:3px !important;
+    background:linear-gradient(135deg,rgba(199,166,106,.18),rgba(199,166,106,.045)) !important;
+    box-shadow:inset 0 0 0 1px rgba(199,166,106,.08),0 3px 12px rgba(0,0,0,.28) !important;
+  }
+  .nav .menu-icon {width:15px !important;height:11px !important;flex:0 0 15px !important}
+  .nav .menu-copy {display:block !important;line-height:1 !important}
+  .nav .menu-copy strong {display:block !important;font-size:8px !important;letter-spacing:.12em !important}
+  .nav .menu-copy small, .nav .menu-spark {display:none !important}
+  .nav .navcta {
+    display:flex !important;
+    flex:0 0 auto !important;
+    align-items:center !important;
+    justify-content:center !important;
+    min-height:38px !important;
+    height:38px !important;
+    margin:0 !important;
+    padding:0 9px !important;
+    border:1px solid rgba(199,166,106,.8) !important;
+    font-size:8px !important;
+    line-height:1 !important;
+    letter-spacing:.07em !important;
+    white-space:nowrap !important;
+  }
+  .nav > .menu-toggle {margin-left:auto !important}
+  .nav > .nav-social {margin-left:auto !important}
+  .nav > .nav-social + .menu-toggle {margin-left:0 !important}
+  .navlinks {top:calc(100% + 7px) !important}
+}
+@media (max-width: 380px) {
+  .nav {gap:5px !important}
+  .nav .brand {flex-basis:88px !important;width:88px !important;min-width:76px !important}
+  .nav .menu-toggle {flex-basis:68px !important;width:68px !important;min-width:68px !important}
+  .nav .navcta {padding:0 6px !important;font-size:7px !important}
+  .nav .nav-social, .nav .nav-linkedin {flex-basis:30px !important;width:30px !important;height:30px !important;min-width:30px !important}
+}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://jafri.one/#website","url":"https://jafri.one/","name":"Afzal Jafri","description":"Executive portfolio of Afzal Jafri - Fintech & Digital Payments Partnerships Leader."},{"@type":"Person","@id":"https://jafri.one/#person","name":"Afzal Jafri","url":"https://jafri.one/","image":"https://jafri.one/assets/hero-portrait.webp","jobTitle":"Digital Business and Partnerships Leader","description":"Business and partnerships leader with 20+ years of experience across fintech, digital payments, banking, mobility, transit payments and institutional partnerships.","address":{"@type":"PostalAddress","addressLocality":"New Delhi","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/afzaljafri/","https://x.com/AfzalJafri","https://www.instagram.com/afzal.jafri/"],"knowsAbout":["Fintech","Digital payments","Banking partnerships","Strategic alliances","Business development","Mobility payments","Transit payments","National Common Mobility Card (NCMC)","FASTag","Government and institutional partnerships"]}]}</script>
 <!-- Google tag (gtag.js) -->
@@ -59,12 +161,60 @@ footer{padding:24px 0;color:#777168;font-size:11px;border-top:1px solid rgba(255
       y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
   })(window, document, "clarity", "script", "z7iblovjp4");
 </script>
+<style>
+
+/* Premium mobile navigation: expandable Explore menu */
+.menu-toggle{display:none;align-items:center;gap:9px;padding:8px 11px;border:1px solid rgba(199,166,106,.72);border-radius:4px;background:linear-gradient(135deg,rgba(199,166,106,.13),rgba(199,166,106,.035));color:#e0c28b;cursor:pointer;min-height:42px;white-space:nowrap;transition:background .25s,border-color .25s,transform .25s}
+.menu-toggle:hover,.menu-toggle[aria-expanded="true"]{background:rgba(199,166,106,.2);border-color:#e0c28b}
+.menu-toggle:focus-visible{outline:2px solid #e0c28b;outline-offset:3px}
+.menu-icon{width:19px;height:14px;display:flex;flex-direction:column;justify-content:space-between;position:relative}
+.menu-icon i{display:block;height:1.5px;background:currentColor;border-radius:2px;transition:transform .25s,opacity .2s,width .25s}
+.menu-icon i:nth-child(2){width:13px;margin-left:auto}
+.menu-toggle[aria-expanded="true"] .menu-icon i:first-child{transform:translateY(6px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] .menu-icon i:nth-child(2){opacity:0}
+.menu-toggle[aria-expanded="true"] .menu-icon i:last-child{transform:translateY(-6px) rotate(-45deg)}
+.menu-copy{display:flex;flex-direction:column;align-items:flex-start;line-height:1.05;gap:3px}
+.menu-copy strong{font-size:10px;letter-spacing:.16em;font-weight:700}
+.menu-copy small{font-size:7px;letter-spacing:.19em;color:#9c8966}
+.menu-spark{font-size:12px;margin-left:1px;color:#f0d7a1}
+@media(max-width:800px){
+  .nav{position:relative;overflow:visible}
+  .menu-toggle{display:inline-flex;flex:0 0 auto;padding:7px 8px;gap:6px}
+  .menu-icon{width:16px;height:12px}
+  .menu-copy strong{font-size:8px}
+  .menu-copy small{font-size:6px}
+  .menu-spark{display:none}
+  .brand img,.brand-logo{width:108px!important;height:52px!important;object-fit:contain}
+  .navlinks{display:none!important;position:absolute!important;top:calc(100% + 8px)!important;left:0!important;right:0!important;z-index:100!important;width:100%!important;max-height:min(72vh,560px);overflow-y:auto!important;order:initial!important;flex-direction:column!important;align-items:stretch!important;gap:0!important;padding:20px 20px 14px!important;background:linear-gradient(145deg,#17140f,#0d0d0d 58%);border:1px solid rgba(199,166,106,.45);box-shadow:0 18px 48px rgba(0,0,0,.72),inset 0 1px rgba(255,255,255,.035);border-radius:5px;white-space:normal!important}
+  .navlinks.is-open{display:flex!important;animation:exploreMenuIn .22s ease-out both}
+  .navlinks::before{content:"EXPLORE THE PORTFOLIO";display:block;color:#c7a66a;font-size:9px;font-weight:700;letter-spacing:.23em;padding:0 0 12px;margin-bottom:5px;border-bottom:1px solid rgba(199,166,106,.22)}
+  .navlinks a{display:flex!important;align-items:center;min-height:47px;padding:11px 2px!important;border-bottom:1px solid rgba(255,255,255,.075)!important;color:#eee7da!important;font-size:12px!important;letter-spacing:.13em!important;text-transform:uppercase;text-decoration:none;transition:color .2s,padding-left .2s}
+  .navlinks a::after{content:"↗";margin-left:auto;color:#a88b58;font-size:14px;opacity:.8}
+  .navlinks a:hover,.navlinks a[aria-current=page]{color:#e0c28b!important;padding-left:8px!important}
+  .navlinks a:last-child{border-bottom:0!important}
+  .nav-actions{display:flex;align-items:center;gap:9px}
+  .nav-actions .menu-toggle{order:0}
+  .nav-actions .nav-linkedin{order:1}
+  .nav-actions .navcta{order:2;padding:9px 10px;font-size:9px;letter-spacing:.08em}
+  .nav > .menu-toggle{margin-left:auto}
+  .nav > .nav-social{margin-left:auto!important;width:32px;height:32px;flex-basis:32px}
+  .nav > .navcta{margin-left:6px;padding:9px 10px;font-size:9px;letter-spacing:.08em}
+  .nav > .menu-toggle + .navcta{margin-left:0}
+  .navlinks.is-open{visibility:visible}
+  body.menu-open{overflow:hidden}
+}
+@keyframes exploreMenuIn{from{opacity:0;transform:translateY(-7px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.navlinks.is-open{animation:none}.menu-icon i{transition:none}}
+
+</style>
 </head>
 <body>
 <header><div class="wrap nav">
-  <a class="brand" href="#home" aria-label="Afzal Jafri homepage"><img class="brand-logo" src="/assets/afzal-jafri-signature-logo.webp" alt="Afzal Jafri signature logo" width="1141" height="579" loading="lazy" decoding="async"></a>
-  <nav class="navlinks"><a href="#about">About</a><a href="#impact">Impact</a><a href="fastag.html">B2B FASTag</a><a href="ncmc.html">NCMC</a><a href="mobility.html">Mobility</a><a href="#expertise">Expertise</a><a href="#career">Career</a><a href="#contact">Contact</a></nav>
-  <div class="nav-actions"><a class="nav-linkedin" href="https://www.linkedin.com/in/afzaljafri/" target="_blank" rel="noopener noreferrer" aria-label="Afzal Jafri on LinkedIn" title="Connect on LinkedIn"><svg style="width:16px;height:16px;fill:currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64c-.95 0-1.66.72-1.66 1.63 0 .92.71 1.63 1.66 1.63.92 0 1.63-.71 1.63-1.63 0-.91-.71-1.63-1.63-1.63Z"/></svg></a><a class="navcta" href="https://wa.me/918777786086?text=Hi%20Afzal%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer">Contact Me</a></div>
+  <a class="brand" href="#home" aria-label="Afzal Jafri homepage"><img class="brand-logo" src="assets/afzal-jafri-signature-logo.webp" alt="Afzal Jafri signature logo" width="1141" height="579" loading="lazy" decoding="async"></a>
+  <nav id="site-navigation" class="navlinks"><a href="#about">About</a><a href="#impact">Impact</a><a href="fastag.html">B2B FASTag</a><a href="ncmc.html">NCMC</a><a href="mobility.html">Mobility</a><a href="#expertise">Expertise</a><a href="#career">Career</a><a href="#contact">Contact</a></nav>
+  <a class="nav-social" href="https://www.linkedin.com/in/afzaljafri/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Afzal Jafri on LinkedIn"><span aria-hidden="true">in</span></a>
+  <button class="menu-toggle" type="button" aria-label="Explore the website navigation" aria-expanded="false" aria-controls="site-navigation"><span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span><span class="menu-copy"><strong>EXPLORE</strong><small>THE SITE</small></span><span class="menu-spark" aria-hidden="true">✦</span></button>
+  <a class="navcta" href="https://wa.me/918777786086?text=Hi%20Afzal%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer">Contact Me</a>
 </div></header>
 
 <main>
@@ -74,10 +224,10 @@ footer{padding:24px 0;color:#777168;font-size:11px;border-top:1px solid rgba(255
     <h1>Afzal <span>Jafri.</span></h1>
     <p class="role">Digital Business &amp; Partnerships Leader</p>
     <p class="intro">Building businesses, partnerships and payment ecosystems across FinTech, digital payments, banking, mobility and institutional markets. 20+ years of experience turning complex opportunities into scalable commercial outcomes.</p>
-    <div class="actions"><a class="btn" href="https://www.linkedin.com/in/afzaljafri/" target="_blank" rel="noopener noreferrer"><svg style="width:14px;height:14px;fill:currentColor;margin-right:8px;vertical-align:-2px" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64c-.95 0-1.66.72-1.66 1.63 0 .92.71 1.63 1.66 1.63.92 0 1.63-.71 1.63-1.63 0-.91-.71-1.63-1.63-1.63Z"/></svg>Connect on LinkedIn</a><a class="btn secondary" href="https://wa.me/918777786086?text=Hi%20Afzal%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer">Contact on WhatsApp</a></div>
+    <div class="actions"><a class="btn" href="#career">Explore my journey</a><a class="btn secondary" href="https://wa.me/918777786086?text=Hi%20Afzal%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer">Contact Me on WhatsApp</a></div>
   </div>
   <div class="heroimg">
-    <img src="/assets/hero-portrait.webp" alt="Afzal Jafri in a modern indoor setting" width="1081" height="1455" loading="lazy" decoding="async">
+    <img src="assets/hero-portrait.webp" alt="Afzal Jafri in a modern indoor setting" width="1081" height="1455" loading="lazy" decoding="async">
     <div class="hero-note">Strategy. Partnerships. Execution.</div>
   </div>
 </section>
@@ -90,7 +240,7 @@ footer{padding:24px 0;color:#777168;font-size:11px;border-top:1px solid rgba(255
 </div></div>
 
 <section id="about"><div class="wrap aboutgrid">
-  <div class="aboutphoto"><img src="/assets/seated-portrait.webp" alt="Afzal Jafri seated in a studio" width="1086" height="1448" loading="lazy" decoding="async"></div>
+  <div class="aboutphoto"><img src="assets/seated-portrait.webp" alt="Afzal Jafri seated in a studio" width="1086" height="1448" loading="lazy" decoding="async"></div>
   <div class="aboutcopy">
     <div class="kicker">A little about me</div><h2>Building what<br>comes next.</h2>
     <p class="lead">I work at the intersection of commercial strategy, technology partnerships and execution.</p>
@@ -155,26 +305,26 @@ footer{padding:24px 0;color:#777168;font-size:11px;border-top:1px solid rgba(255
 <section><div class="wrap">
   <div class="section-head"><div><div class="kicker">Beyond the boardroom</div><h2>A little more personal.</h2></div><p class="section-desc">A few moments outside the professional profile.</p></div>
   <div class="gallery">
-    <img src="/assets/outdoor-portrait.webp" alt="Afzal outdoors on stone steps" width="1024" height="1536" loading="lazy" decoding="async">
-    <img src="/assets/city-portrait.webp" alt="Afzal in a modern city setting" width="1024" height="1536" loading="lazy" decoding="async">
-    <img src="/assets/motorcycle-portrait.webp" alt="Black and white portrait of Afzal on a motorcycle" width="1081" height="1455" loading="lazy" decoding="async">
+    <img src="assets/outdoor-portrait.webp" alt="Afzal outdoors on stone steps" width="1024" height="1536" loading="lazy" decoding="async">
+    <img src="assets/city-portrait.webp" alt="Afzal in a modern city setting" width="1024" height="1536" loading="lazy" decoding="async">
+    <img src="assets/motorcycle-portrait.webp" alt="Black and white portrait of Afzal on a motorcycle" width="1081" height="1455" loading="lazy" decoding="async">
   </div>
 </div></section>
 
 <section class="contact" id="contact"><div class="wrap contactgrid">
-  <div><div class="kicker">Connect with me</div><h2>Let's start a conversation.</h2><p>For leadership opportunities, strategic partnerships, advisory conversations or business collaborations, feel free to get in touch.</p><div class="actions"><a class="btn" href="https://wa.me/918777786086?text=Hi%20Afzal%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer">Contact Me on WhatsApp</a><a class="btn secondary" href="https://www.linkedin.com/in/afzaljafri/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></div></div>
+  <div><div class="kicker">Connect with me</div><h2>Let's start a conversation.</h2><p>For leadership opportunities, strategic partnerships, advisory conversations or business collaborations, feel free to get in touch.</p><div class="actions"><a class="btn" href="https://wa.me/918777786086?text=Hi%20Afzal%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer">Contact Me on WhatsApp</a><a class="btn secondary" href="https://www.linkedin.com/in/afzaljafri/" target="_blank" rel="noopener">LinkedIn profile</a></div></div>
   <div class="contactlinks">
     <a href="mailto:afzal.jafri@gmail.com"><small>Email</small>afzal.jafri@gmail.com</a>
     <a href="tel:+918777786086"><small>Phone</small>+91 8777 786 086</a>
-    <a href="https://www.linkedin.com/in/afzaljafri/" target="_blank" rel="noopener noreferrer"><small>LinkedIn</small>linkedin.com/in/afzaljafri</a>
+    <a href="https://www.linkedin.com/in/afzaljafri/" target="_blank" rel="noopener"><small>LinkedIn</small>linkedin.com/in/afzaljafri</a>
     <a href="#home"><small>Website</small>jafri.one</a>
   </div>
 </div></section>
 </main>
-<footer><div class="wrap footer-wrap"><a class="footer-brand" href="#home" aria-label="Back to top"><img src="/assets/afzal-jafri-signature-logo.webp" alt="Afzal Jafri" width="1141" height="579" loading="lazy" decoding="async"></a><span>© <span id="year"></span> Afzal Jafri. All rights reserved.</span><span>Strategy · Partnerships · Execution</span><div class="socials" aria-label="Social profiles"><a href="https://www.instagram.com/afzal.jafri/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6zm5.2-3.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a><a href="https://x.com/AfzalJafri" target="_blank" rel="noopener" aria-label="X / Twitter"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-5-7.1L5.7 22H2.5l7.3-8.4L1.8 2h6.4l4.5 6.5L18.9 2zm-1.1 18h1.7L7.2 3.9H5.4L17.8 20z"/></svg></a></div></div></footer>
+<footer><div class="wrap footer-wrap"><a class="footer-brand" href="#home" aria-label="Back to top"><img src="assets/afzal-jafri-signature-logo.webp" alt="Afzal Jafri" width="1141" height="579" loading="lazy" decoding="async"></a><span>© <span id="year"></span> Afzal Jafri. All rights reserved.</span><span>Strategy · Partnerships · Execution</span><div class="socials" aria-label="Social profiles"><a href="https://www.instagram.com/afzal.jafri/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6zm5.2-3.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a><a href="https://x.com/AfzalJafri" target="_blank" rel="noopener" aria-label="X / Twitter"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-5-7.1L5.7 22H2.5l7.3-8.4L1.8 2h6.4l4.5 6.5L18.9 2zm-1.1 18h1.7L7.2 3.9H5.4L17.8 20z"/></svg></a></div></div></footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 <a href="https://wa.me/918777786086?text=Hi%20Afzal%2C%20I%20would%20like%20to%20connect%20with%20you." target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Connect with Afzal on WhatsApp">
-  <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" width="62" height="62" loading="lazy" decoding="async">
+  <img src="assets/whatsapp-icon.svg" alt="WhatsApp" width="62" height="62" loading="lazy" decoding="async">
 </a>
 <script>
 document.addEventListener('click', function(event) {
@@ -189,35 +339,71 @@ document.addEventListener('click', function(event) {
   }
 
   const host = url.hostname.toLowerCase();
-  const label = (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100);
 
-  // 1. WhatsApp Clicks
   if (host === 'wa.me' || host === 'whatsapp.com' || host.endsWith('.whatsapp.com')) {
+    const label = (
+      link.innerText ||
+      link.getAttribute('aria-label') ||
+      'WhatsApp'
+    ).trim().slice(0, 100);
+
+    // 1. GA4 Custom Event
     if (typeof gtag === 'function') {
       gtag('event', 'whatsapp_click', {
         link_domain: host,
-        link_text: label || 'WhatsApp',
+        link_text: label,
         page_path: window.location.pathname
       });
     }
+
+    // 2. Microsoft Clarity Custom Event
     if (typeof window.clarity === 'function') {
       window.clarity('event', 'whatsapp_click');
     }
   }
+});
+</script>
 
-  // 2. LinkedIn Clicks
+<script>
+/* LinkedIn outbound click tracking for GA4 and Microsoft Clarity */
+document.addEventListener('click', function(event) {
+  const link = event.target.closest('a[href]');
+  if (!link) return;
+  let url;
+  try { url = new URL(link.href, window.location.href); } catch (e) { return; }
+  const host = url.hostname.toLowerCase();
   if (host === 'linkedin.com' || host.endsWith('.linkedin.com')) {
+    const label = (link.innerText || link.getAttribute('aria-label') || 'LinkedIn').trim().slice(0, 100);
     if (typeof gtag === 'function') {
       gtag('event', 'linkedin_click', {
         link_domain: host,
-        link_text: label || 'LinkedIn',
+        link_text: label,
         page_path: window.location.pathname
       });
     }
-    if (typeof window.clarity === 'function') {
-      window.clarity('event', 'linkedin_click');
-    }
+    if (typeof window.clarity === 'function') window.clarity('event', 'linkedin_click');
   }
 });
 </script>
+
+
+<script>
+(function(){
+  const toggle=document.querySelector('.menu-toggle');
+  const menu=document.getElementById('site-navigation');
+  if(!toggle||!menu)return;
+  function closeMenu(){toggle.setAttribute('aria-expanded','false');menu.classList.remove('is-open');document.body.classList.remove('menu-open');}
+  toggle.addEventListener('click',function(){
+    const opening=toggle.getAttribute('aria-expanded')!=='true';
+    toggle.setAttribute('aria-expanded',String(opening));
+    menu.classList.toggle('is-open',opening);
+    document.body.classList.toggle('menu-open',opening);
+  });
+  menu.addEventListener('click',function(event){if(event.target.closest('a'))closeMenu();});
+  document.addEventListener('keydown',function(event){if(event.key==='Escape')closeMenu();});
+  document.addEventListener('click',function(event){if(!menu.contains(event.target)&&!toggle.contains(event.target))closeMenu();});
+  window.addEventListener('resize',function(){if(window.innerWidth>760)closeMenu();});
+})();
+</script>
+
 </body></html>
